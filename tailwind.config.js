@@ -8,9 +8,24 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        explosion: 'url("/bg-explosion.png")',
+        circles: 'url("/bg-circles.png")',
+        circleStar: 'url("/circle-star.svg")',
+        site: 'url("/site-bg.svg")',
+      },
+      fontFamily: {
+        rubikMono: ["Rubik Mono One", "monospace"],
+        robotoMono: ["Roboto Mono", "monospace"],
+      },
+      animation: {
+        "spin-slow": "spin 6s linear infinite",
+      },
+      colors: {
+        primary: "#131424",
+        secondary: "#393A47",
+        accent: "#F13024",
+        green: "#43b282",
+        greent: "#328561",
       },
     },
   },
