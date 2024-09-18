@@ -6,7 +6,7 @@ import { fadeIn } from "../../../variants";
 const HomePage = () => {
   return (
     <MainLayout>
-      <main className="px-4 xl:px-16  mt-16">
+      <main className="bg-[#011222] px-4 xl:px-16  mt-16">
         <div className="text-[#e8eaed]">
           <div className="container lg:px-20 px-0 py-6 mx-auto">
             <div className="max-w-[1200px] h-full ">

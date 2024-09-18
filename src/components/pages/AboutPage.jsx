@@ -55,7 +55,7 @@ const aboutData = [
 const AboutPage = () => {
   const [index, setIndex] = useState(0);
   return (
-    <main className="text-white">
+    <main className="bg-[#011222] text-white">
       <MainLayout>
         <main className="px-4 xl:px-16  py-0 md:py-44 text-center xl:text-left">
           <div>
