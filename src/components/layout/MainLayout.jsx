@@ -2,7 +2,7 @@ import { HeaderMain, Header } from "../parts";
 
 const MainLayout = ({ children }) => {
   return (
-    <main className="">
+    <main className="w-full h-screen">
       <HeaderMain />
       <Header />
       {children}
