@@ -2,7 +2,7 @@ import WorkPage from "@/components/pages/WorkPage";
 
 const Work = () => {
   return (
-    <main className="w-screen h-screen bg-[#011222]">
+    <main className="w-screen h-screen bg-blue">
       <WorkPage />
     </main>
   );

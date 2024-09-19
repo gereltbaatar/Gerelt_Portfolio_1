@@ -2,7 +2,7 @@ import ContactPage from "@/components/pages/ContactPage";
 
 const Contact = () => {
   return (
-    <main className="w-screen h-screen bg-[#011222]">
+    <main className="w-screen h-screen bg-blue">
       <ContactPage />
     </main>
   );

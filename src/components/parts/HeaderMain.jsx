@@ -8,7 +8,7 @@ import {
 
 export const HeaderMain = () => {
   return (
-    <main className="bg-[#011222] w-full flex items-center px-16 lx:px-0 xl:h-[90px]">
+    <main className="bg-blue w-full flex items-center px-16 lx:px-0 xl:h-[90px]">
       <div className="container m-auto lg:px-20 px-4 py-6 ">
         <div className="flex justify-between flex-col lg:flex-row gap-y-4">
           <div className="flex items-center justify-center">

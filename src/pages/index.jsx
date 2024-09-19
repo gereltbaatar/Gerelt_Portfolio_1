@@ -2,7 +2,7 @@ import HomePage from "@/components/pages/HomePage";
 
 export default function Home() {
   return (
-    <main className="h-full bg-[#011222]">
+    <main className="h-full bg-blue">
       <HomePage />
     </main>
   );
