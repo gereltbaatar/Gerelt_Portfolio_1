@@ -55,7 +55,7 @@ const AboutPage = () => {
   const [index, setIndex] = useState(0);
   return (
     <main className="text-white">
-      <main className="px-4 xl:px-16  py-0 md:py-44 text-center xl:text-left">
+      <main className="px-4 xl:px-16 py-0 md:py-44 text-center xl:text-left">
         <div>
           <div className="container lg:px-20 px-0 mx-auto h-full flex flex-col items-start justify-between xl:flex-row gap-x-6">
             <div className="flex flex-col gap-5 justify-start max-w-[600px]">

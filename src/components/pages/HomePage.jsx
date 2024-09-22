@@ -5,9 +5,9 @@ import { fadeIn } from "../../../variants";
 
 const HomePage = () => {
   return (
-    <main className="px-4 xl:px-16 h-full pt-16">
+    <main className="px-4 xl:px-16 h-full xl:pt-16 pt-0">
       <div className="text-[#e8eaed]">
-        <div className="container lg:px-20 px-0 py-6 mx-auto">
+        <div className="container lg:px-20 py-6 mx-auto">
           <div className="max-w-[1200px] h-full ">
             <div className="text-center flex flex-col justify-center xl:pt-24 xl:text-left h-full container mx-auto">
               <motion.h1

@@ -1,10 +1,10 @@
-export const ArrowIcon = ({ classEdit }) => {
+export const ArrowIcon = ({ classEdit, width }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       height="36px"
       viewBox="0 -960 960 960"
-      width="36px"
+      width={`${width}`}
       fill="#e8eaed"
       className={`${classEdit} `}
     >

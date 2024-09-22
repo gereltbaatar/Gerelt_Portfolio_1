@@ -28,6 +28,7 @@ module.exports = {
         accent: "#F13024",
         green: "#43b282",
         greent: "#328561",
+        blurGreen: "#43b2821a",
       },
     },
   },

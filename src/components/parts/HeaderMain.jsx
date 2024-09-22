@@ -13,7 +13,7 @@ export const HeaderMain = () => {
         <div className="flex justify-between flex-col lg:flex-row gap-y-4">
           <div className="flex items-center justify-center">
             <div className="text-white flex items-center font-robotoMono text-3xl not-italic font-bold tracking-[-0.6px]">
-              My
+              Gerelt
             </div>
             <div className="flex text-[#43B282] items-center font-robotoMono text-2xl not-italic font-normal tracking-[-0.6px]">
               .

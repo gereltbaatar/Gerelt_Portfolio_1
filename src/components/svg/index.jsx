@@ -8,4 +8,5 @@ export * from "./LinkedInIcon";
 export * from "./GithubIcon";
 export * from "./InstagramIcon";
 export * from "./ThreadsIcon";
-export * from "./ArrowIcon"
+export * from "./ArrowIcon";
+export * from "./ArrowTopIcon";
