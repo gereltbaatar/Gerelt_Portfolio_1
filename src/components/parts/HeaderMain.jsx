@@ -24,9 +24,9 @@ export const HeaderMain = () => {
           </div>
           <div className="flex items-center justify-center gap-4">
             <FacebookIcon />
-            <InstagramIcon />
             <GithubIcon />
             <TiwitterIcon />
+            <InstagramIcon />
             <LinkedInIcon />
           </div>
         </div>
