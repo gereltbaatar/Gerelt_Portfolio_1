@@ -1,9 +1,14 @@
 import MainLayout from "../layout/MainLayout";
 import { RoundedText } from "../component";
+import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../../variants";
 
 const HomePage = () => {
+  const [text] = useTypewriter({
+    words: ["Gereltbaatar", "Software engineer"],
+    loop: 0,
+  });
   return (
     <main className="px-4 xl:px-16 h-full xl:pt-16 pt-0">
       <div className="text-[#e8eaed]">
@@ -17,8 +22,9 @@ const HomePage = () => {
                 exit="hidden"
                 className="text-[35px] leading-tight md:text-[60px] md:leading-[1.3] mb-8 font-semibold"
               >
-                I'm Software engineer <br /> into
-                <span className="text-green "> Gereltbaatar</span>
+                I'm
+                <span className="text-green "> {text}</span>{" "}
+                <Cursor cursorColor="#43b282" />
               </motion.h1>
               <motion.p
                 variants={fadeIn("down", 0.3)}
