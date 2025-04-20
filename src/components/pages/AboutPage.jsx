@@ -9,6 +9,7 @@ import {
   ReactIcon,
   TailwindIcon,
   VScodeIcon,
+  TypescriptIcon,
 } from "../svgAbout";
 import CountUp from "react-countup";
 import { motion } from "framer-motion";
@@ -20,6 +21,18 @@ const aboutData = [
     info: [
       {
         title: "Frontend",
+        icons: [
+          <HtmlIcon />,
+          <CssIcon />,
+          <JavaScrictIcon />,
+          <ReactIcon />,
+          <NextJSIcon />,
+          <TypescriptIcon />,
+          <TailwindIcon />,
+        ],
+      },
+      {
+        title: "Backend",
         icons: [
           <HtmlIcon />,
           <CssIcon />,
@@ -57,7 +70,7 @@ const AboutPage = () => {
     <main className="text-white ">
       <main className="px-4 xl:px-16 py-0 md:py-44 text-center xl:text-left">
         <div>
-          <div className="container lg:px-20 px-0 mx-auto h-full flex flex-col items-start justify-between xl:flex-row gap-x-6">
+          <div className="container lg:px-0 px-0 mx-auto h-full flex flex-col items-start justify-between xl:flex-row gap-x-6">
             <div className="flex flex-col gap-5 justify-start max-w-[600px]">
               <motion.h2
                 variants={fadeIn("right", 0.2)}
@@ -94,7 +107,7 @@ const AboutPage = () => {
                 <div className="flex flex-1 xl:gap-x-6">
                   <div className=" relative flex-1 flex flex-col after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                     <div className="text-2xl xl:text-4xl font-extrabold text-greent md-2">
-                      <CountUp start={0} end={10} duration={5} /> +
+                      <CountUp start={0} end={17} duration={5} /> +
                     </div>
                     <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                       count of proreject
@@ -103,7 +116,7 @@ const AboutPage = () => {
                   {/* clients */}
                   <div className=" relative flex-1 flex flex-col after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                     <div className="text-2xl xl:text-4xl font-extrabold text-green md-2">
-                      <CountUp start={0} end={250} duration={5} /> +
+                      <CountUp start={0} end={57} duration={5} /> +
                     </div>
                     <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                       Satisfied clients
@@ -112,7 +125,7 @@ const AboutPage = () => {
                   {/* projects */}
                   <div className=" relative flex-1 flex flex-col after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                     <div className="text-2xl xl:text-4xl font-extrabold text-green md-2">
-                      <CountUp start={0} end={650} duration={5} /> +
+                      <CountUp start={0} end={15} duration={5} /> +
                     </div>
                     <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                       Finished projects
@@ -121,7 +134,7 @@ const AboutPage = () => {
                   {/* awards */}
                   <div className=" relative flex-1 ">
                     <div className="text-2xl xl:text-4xl font-extrabold text-green md-2">
-                      <CountUp start={0} end={8} duration={5} /> +
+                      <CountUp start={0} end={1} duration={5} /> +
                     </div>
                     <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                       Winning awards
@@ -153,7 +166,7 @@ const AboutPage = () => {
                   );
                 })}
               </div>
-              <div className="py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start">
+              <div className="py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 items-center justify-center xl:items-start">
                 {aboutData[index].info.map((item, itemIndex) => {
                   return (
                     <div

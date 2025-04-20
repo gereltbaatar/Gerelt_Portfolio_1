@@ -1,4 +1,3 @@
-import MainLayout from "../layout/MainLayout";
 import { RoundedText } from "../component";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { motion } from "framer-motion";
@@ -12,8 +11,8 @@ const HomePage = () => {
   return (
     <main className="px-4 xl:px-16 h-full xl:pt-16 pt-0">
       <div className="text-[#e8eaed]">
-        <div className="container lg:px-20 py-6 mx-auto">
-          <div className="max-w-[1200px] h-full ">
+        <div className="container py-6 mx-auto border border-red-500 flex gap-4">
+          <div className="w-full h-full border border-greent">
             <div className="text-center flex flex-col justify-center xl:pt-24 xl:text-left h-full container mx-auto">
               <motion.h1
                 variants={fadeIn("down", 0.2)}
@@ -53,6 +52,8 @@ const HomePage = () => {
           <div className="mx-auto xl:mx-0  flex justify-center  xl:hidden relative">
             <RoundedText />
           </div>
+          <div className="w-full">ewfwe</div>
+          {/* <img src="./pinebaatarR2.png" alt="" /> */}
         </div>
       </div>
     </main>

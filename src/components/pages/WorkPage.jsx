@@ -6,7 +6,7 @@ const WorkPage = () => {
   return (
     <main className="text-white px-4 xl:px-16 xl:pt-16 pt-0">
       <div className="">
-        <div className="container mx-auto lg:px-20 py-6 xl:pt-24 pt-10">
+        <div className="container mx-auto lg:px-0 py-6 xl:pt-24 pt-10">
           <div className=" flex gap-x-4 md:flex-row flex-col pt-16">
             <div className="text-center flex xl:w-[30vw] flex-col lg:text-left mb-4 xl:mb-0">
               <motion.h2

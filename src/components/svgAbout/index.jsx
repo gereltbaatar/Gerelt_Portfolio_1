@@ -7,3 +7,5 @@ export * from "./JavaScrictIcon";
 export * from "./GithubIcon";
 export * from "./VScodeIcon";
 export * from "./FigmaIcon";
+export * from "./TypescriptIcon";
+export * from "./NodejsIcon";
