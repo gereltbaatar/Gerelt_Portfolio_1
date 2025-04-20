@@ -1,6 +1,10 @@
 export const GithubIcon = () => {
   return (
-    <a href="https://github.com/gereltbaatar/">
+    <a
+      href="https://github.com/gereltbaatar/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       <svg
         height="22"
         viewBox="0 0 1792 1792"

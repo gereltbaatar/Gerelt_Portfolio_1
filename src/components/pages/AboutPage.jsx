@@ -10,10 +10,18 @@ import {
   TailwindIcon,
   VScodeIcon,
   TypescriptIcon,
+  NodejsIcon,
+  ExpressIcon,
+  MongodbIcon,
+  PostgresqlIcon,
+  CloudinaryIcon,
+  GraphqlIcon,
+  BlenderIcon,
 } from "../svgAbout";
 import CountUp from "react-countup";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../../variants";
+import { CanvaIcon } from "../svgAbout/CanvaIcon";
 
 const aboutData = [
   {
@@ -34,17 +42,23 @@ const aboutData = [
       {
         title: "Backend",
         icons: [
-          <HtmlIcon />,
-          <CssIcon />,
-          <JavaScrictIcon />,
-          <ReactIcon />,
-          <NextJSIcon />,
-          <TailwindIcon />,
+          <NodejsIcon />,
+          <ExpressIcon />,
+          <MongodbIcon />,
+          <PostgresqlIcon />,
+          <CloudinaryIcon />,
+          <GraphqlIcon />,
         ],
       },
       {
         title: "Others",
-        icons: [<GithubIcon />, <VScodeIcon />, <FigmaIcon />],
+        icons: [
+          <GithubIcon />,
+          <VScodeIcon />,
+          <FigmaIcon />,
+          <CanvaIcon />,
+          <BlenderIcon />,
+        ],
       },
     ],
   },
